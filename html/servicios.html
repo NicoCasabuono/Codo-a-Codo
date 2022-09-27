@@ -29,6 +29,66 @@
             </div>
         </div>
     </header>
+
+    <section class="seccion-tarifas">
+        <div id="tarifas">
+            <table class="tabla">
+                <caption>Tarifas - Precio por noche</caption>
+            <thead>    
+                <tr>
+                    <th>Temporada</td>
+                    <th>Apartamento <br> para 2 personas</th>
+                    <th>Apartamento <br> para 4 personas</th>
+                    <th>Apartamento <br> para 6 personas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Temporada">Baja</td>
+                    <td data-label="Apartamento para 2 personas">$1000</td>
+                    <td data-label="Apartamento para 4 personas">$1500</td>
+                    <td data-label="Apartamento para 6 personas">$1800</td>
+                </tr>
+                <tr>
+                    <td data-label="Temporada">Alta</td>
+                    <td data-label="Apartamento para 2 personas">$2000</td>
+                    <td data-label="Apartamento para 4 personas">$2500</td>
+                    <td data-label="Apartamento para 6 personas">$2800</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <section class="seccion-info">
+
+        <h2 class="info-h2">Servicios</h2>
+
+    <div class="mas-info">
+        <ul>
+            <li>Wi-Fi</li>
+            <li>Servicio de limpieza lunes y jueves</li>
+            <li>Bandeja Desayuno</li>
+            <li>Televisión Satelital</li>
+            <li>Cambio ropa de cama lunes y jueves</li>
+            <li>Cambio periódico de toallas Lunes, miercoles y viernes</li>
+            <li>Caja de seguridad</li>
+        </ul>
+    </div>
+
+        <h2 class="info-h2">Recepcion</h2>
+
+    <div class="mas-info">
+        <ul>
+            <li>Check-in de 12hs a 20hs</li>
+            <li>Check-out de 7hs a 10hs</li>
+        </ul>
+    </div>
+
+    </section>
+
+
     <footer>
         <div class="container-footer">
             <div class="SiteMap">
@@ -50,6 +110,17 @@
                 </ul>
             </div>
         </div>
+        <script type="text/javascript">
+            var counter=1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked=true;
+                counter++;
+                if(counter > 4){
+                    counter = 1;
+                }
+            },5000)
+
+        </script>
         
     </footer>
     <div class="copy">

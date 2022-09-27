@@ -138,6 +138,9 @@ header{
 /*------------------------footer------------------------*/
 
 footer{
+  margin-bottom: 0;
+  background: rgba(17, 17, 17, 0.846);
+  display: flex;
   position: relative;
   width: 100%;
   height: auto;
@@ -735,3 +738,126 @@ form p {
   }
 }
 /*------------------------Nicolas------------------------*/
+/*------------------------Gaston-Tarifas----------------------*/
+
+
+.seccion-tarifas{
+  padding-top: 200px;
+  padding-bottom: 50px;
+  background-color: #a8e162;
+}
+#tarifas{
+  width: 100%;
+  max-width: 1000px;
+  margin:auto;
+}
+.tabla{
+  width: 100%;
+  border: 1px solid rgb(10, 71, 23);
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;/*para que todas las columnas tengan el mismo ancho*/ 
+}
+.tabla caption{
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 8px 0px;
+}
+
+.tabla tr{
+  background-color: #0a7926;
+  border: 1px solid rgb(10, 71, 23);
+}
+
+.tabla th, .tabla td{
+  font-size: 16px;
+  padding: 8px;
+  text-align: center;
+}
+
+.tabla thead th{
+  text-transform: uppercase;
+  background-color: rgb(20, 100, 37);
+}
+
+.tabla tbody tr:hover{
+  background-color: rgb(72, 128, 84);
+}
+
+.tabla tbody td:hover{
+  background-color: rgb(72, 128, 54);
+}
+
+@media screen and (max-width: 600px) {
+  .tabla{
+    border: 0px;
+  }
+  .tabla caption{
+    font-size: 22px;
+  }
+  .tabla thead{
+    display: none;
+  }
+  .tabla tr{
+    margin-bottom: 8px;
+    border-bottom: 4px solid #a8e162;
+    display: block;
+  }
+  .tabla th, .tabla td{
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+  }
+  .tabla td{
+    display: block;
+    border-bottom: 1px solid #a8e162;
+    text-align: end;
+  }
+  .tabla td:last-child{
+    border-bottom: 0px;
+  }
+  .tabla td::before{
+    content: attr(data-label);
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+  }
+
+}
+
+
+
+
+
+
+/*------------------------Gaston-carrusell-tarifas----------------------*/
+
+.seccion-info{
+  background-color: #a8e162;
+  padding: 2px 0 50px 0;
+}
+
+.info-h2{
+  padding-top: 50px;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 8px 0px;
+  text-align: center;
+}
+
+.mas-info{
+  background-color: #0a7926;
+  margin: auto;
+  padding: 50px;
+  align-items: center;
+  justify-items: center;
+  max-width: 800px;
+}
+
+
+
+
+
