@@ -45,10 +45,11 @@ header{
 }
 .menu ul li a{
   text-decoration: none;
-  font-size: 16px;
+  font-size: 19px;
   color: rgb(2, 67, 4);
   text-transform: uppercase;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
 }
 .menu ul li::before{
   content: "";
@@ -473,7 +474,10 @@ footer .container-footer h2::before{
 .formulario{
   display: block;
   padding: 150px 10% 50px 10%;
-  background-color: #a8e162;
+  background-image: url(../img/entorno-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 form{
   background-color: white;
@@ -527,7 +531,10 @@ form p {
 .cuerpo{
   display: block;
   padding-top:150px;
-  background-color: #a8e162;
+  background-image: url(../img/entorno-02.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .titulo-encabezado, h1{
   text-align: center;
@@ -560,7 +567,7 @@ form p {
   margin: 20px;
   text-align: center;
   transition: all 0.25s;
-  background-color: rgba(255, 255, 255, 0.438);
+  background-color: rgba(255, 255, 255, 0.8);
 
 }
 #espacios .contenedor .carta{
@@ -603,6 +610,8 @@ form p {
   text-align: center;
   display: flex;
   margin-bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
 }
 .contenedor-mapa .direccion{
   margin-top: 60px;
@@ -651,7 +660,10 @@ form p {
 /*------------------------Nicolas------------------------*/
 /*------------------------Apartamentos------------------------*/
 .bodyy{
-  background-color: rgb(10, 71, 23);
+  background-image: url(../img/02.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .aparta{
   
@@ -662,7 +674,7 @@ form p {
 }
 .imagen img{
   width: 100%;
-  border-radius: 15%;
+  border-radius: 10%;
 }
 .galeria{
   width: 100%;
@@ -676,19 +688,19 @@ form p {
 .contenedor-galeria{
   margin: 35px;
   padding: 60px;
-  background-color: #9ab99d;
+  background-color: rgb(154,185,157,0.9);
   border-radius: 20%;
 }
 .contenedor-galeria1{
   margin: 35px;
   padding: 60px;
-  background-color: #9ab99d;
+  background-color: rgb(154,185,157,0.9);
   border-radius: 20%;
 }
 .contenedor-galeria2{
   margin: 35px;
   padding: 60px;
-  background-color: #9ab99d;
+  background-color: rgb(154,185,157,0.9);
   border-radius: 20%;
 }
 .imagen img:hover{
@@ -728,23 +740,26 @@ form p {
     grid-template-columns: repeat(3, 1fr);
   }
   .contenedor-galeria{
-    border-radius: 20%;
+    border-radius: 10%;
   }
   .contenedor-galeria1{
-    border-radius: 20%;
+    border-radius: 10%;
   }
   .contenedor-galeria2{
-    border-radius: 20%;
+    border-radius: 10%;
   }
 }
 /*------------------------Nicolas------------------------*/
 /*------------------------Gaston-Tarifas----------------------*/
-
-
+.serviciostar{
+background-image: url(../img/Cabaña5.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
 .seccion-tarifas{
   padding-top: 200px;
   padding-bottom: 50px;
-  background-color: #a8e162;
 }
 #tarifas{
   width: 100%;
@@ -764,6 +779,8 @@ form p {
   text-transform: uppercase;
   font-weight: bold;
   margin: 8px 0px;
+  background-color:rgba(104, 143, 112, 0.9);
+
 }
 
 .tabla tr{
@@ -835,17 +852,19 @@ form p {
 /*------------------------Gaston-carrusell-tarifas----------------------*/
 
 .seccion-info{
-  background-color: #a8e162;
   padding: 2px 0 50px 0;
 }
 
 .info-h2{
-  padding-top: 50px;
+  padding-top: 0px;
   font-size: 28px;
   text-transform: uppercase;
   font-weight: bold;
-  margin: 8px 0px;
   text-align: center;
+  max-width: 800px;
+  background-color:rgba(104, 143, 112, 0.9);
+  margin: auto
+  
 }
 
 .mas-info{
